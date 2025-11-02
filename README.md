@@ -67,7 +67,7 @@ After both stages:
 
 ## 📖 Notes
 
-* This is a simplified, educational replication — not the full LLaVA scale.
+* This is a simplified replication of the model and not the full LLaVA scale.
 * Inspired by: [LLaVA GitHub](https://github.com/haotian-liu/LLaVA)
 * Models used:
 
