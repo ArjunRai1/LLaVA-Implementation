@@ -83,9 +83,4 @@ After both stages:
 | "Describe the image."   | "A bowl of fruit on a wooden table." |
 | "What object is shown?" | "A green apple."                     |
 
-------
 
-
-
-Implementation and experiment by **[Your Name]**,
-based on open-source LLaVA methodology and Hugging Face models.
