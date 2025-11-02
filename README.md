@@ -1,5 +1,5 @@
 # LLaVA-Implementation
-# LLaVA Mini Replication (Local / Colab)
+# LLaVA Mini Replication (Colab)
 
 This project is a **minimal replication** of the paper
 **“Visual Instruction Tuning” (LLaVA: Large Language and Vision Assistant)**.
@@ -30,12 +30,12 @@ This design follows the same concept as LLaVA but uses a lighter and fully open 
 
 ### **Stage 1: Feature Alignment**
 
-* Goal: Align CLIP’s visual embeddings with TinyLlama’s language space.
-* Data: Simple caption-style pairs (e.g., image + short description).
+* Goal: Align CLIP visual embeddings with TinyLlama’s language space.
+* Data: Simple caption pairs (e.g. image + short description).
 * Process:
 
-  * Freeze CLIP encoder (no fine-tuning).
-  * Train only the projector using image–caption pairs (`chat.json` format).
+  * Freeze CLIP encoder(no fine-tuning).
+  * Train only the projector using image–caption pairs(`chat.json` format).
   * Result: The projector learns to translate CLIP outputs into TinyLlama’s embedding space.
 
 ### **Stage 2: Visual Instruction Tuning**
